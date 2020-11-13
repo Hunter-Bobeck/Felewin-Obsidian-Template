@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "eb15ce84f501df7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "61509517e514132e",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "259af393457d2221",
+    "type": "split",
+    "children": [
+      {
+        "id": "e13171653ce5c9b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3150aaacaaa89f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "54f3f31f29849201",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          },
+          {
+            "id": "b80fe23e58275b58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fafe2335a7938b57",
+    "type": "split",
+    "children": [
+      {
+        "id": "e85bf588dbb63ef1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1c6656948cfe617",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          },
+          {
+            "id": "11d82dba5fb99677",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          },
+          {
+            "id": "c17c7dfff74ec717",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": []
+}

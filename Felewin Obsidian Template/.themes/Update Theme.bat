@@ -1,0 +1,1 @@
+sass obsidian.scss "../obsidian.css for template projects/obsidian.css"

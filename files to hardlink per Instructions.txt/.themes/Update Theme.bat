@@ -1,1 +1,0 @@
-sass obsidian.scss ../obsidian.css
