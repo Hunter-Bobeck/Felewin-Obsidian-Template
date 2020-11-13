@@ -1,0 +1,1 @@
+sass --watch obsidian.scss ../obsidian.css
