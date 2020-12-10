@@ -827,7 +827,7 @@ ul .task-list-item ul::before {
 
 /** preview mode **/
 .external-link {
-  color: rgba(215, 148, 255, 0.55);
+  color: rgba(0, 255, 162, 0.55);
 }
 
 .internal-link,
