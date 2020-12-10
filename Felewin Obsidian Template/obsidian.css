@@ -226,7 +226,7 @@ div:not(.CodeMirror-activeline)
 | HR CLUTTER FREE
 **--------------------**/
 
-div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hr {
+/*div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hr {
   opacity: 0;
   position: relative;
 }
@@ -257,7 +257,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line.HyperMD-hr::after {
   padding: 0rem;
   color: var(--text-sub-accent);
   background-color: var(--background-primary);
-}
+}*/
 
 /**-------------------**
 | UL/OL LIST CLUTTER FREE
@@ -613,7 +613,6 @@ h6 {
 .markdown-preview-section h1,
 .cm-header-1 {
   font-size: 34px;
-  color: var(--text-title-h1);
 }
 
 .markdown-preview-section h2,
@@ -682,7 +681,6 @@ h6 {
 
 /** hr styles -- PREVIEW MODE */
 .markdown-preview-view hr {
-  margin-block-end: 4em;
   border: none;
   height: 0;
   border-bottom: 1px solid;
@@ -847,74 +845,39 @@ ul .task-list-item ul::before {
 /** editor mode **/
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-hmd-internal-link {
-  text-shadow: -1px -1px 2px var(--background-secondary), -1px 1px 2px var(--background-secondary),
-    1px -1px 2px var(--background-secondary), 1px 1px 2px var(--background-secondary);
-  color: var(--text-normal);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 5px 5px;
   text-decoration: none;
 }
 
 .cm-s-obsidian span.cm-link {
-  background-image: linear-gradient(
-    to bottom,
-    var(--bg-sub-accent-55) 0%,
-    var(--bg-sub-accent-55) 100%
-  );
 }
 
 .cm-s-obsidian span.cm-hmd-internal-link {
-  background-image: linear-gradient(to bottom, var(--bg-accent-55) 0%, var(--bg-accent-55) 100%);
 }
 
 .cm-s-obsidian span.cm-formatting-link {
-  color: var(--text-faint) !important;
 }
 
 /** preview mode **/
 .external-link {
-  padding: 0;
+  color: rgba(215, 148, 255, 0.55);
 }
 
 .internal-link,
 .external-link {
-  text-shadow: -1px -1px 2px var(--background-primary), -1px 1px 2px var(--background-primary),
-    1px -1px 2px var(--background-primary), 1px 1px 2px var(--background-primary);
-  -webkit-text-fill-color: var(--text-normal);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 5px 5px;
   text-decoration: none;
   transition: all 350ms ease;
 }
 
 .internal-link {
-  background-image: linear-gradient(to bottom, var(--bg-accent-55) 0%, var(--bg-accent-55) 100%);
 }
 
 .external-link {
-  background-image: linear-gradient(
-    to bottom,
-    var(--bg-sub-accent-55) 0%,
-    var(--bg-sub-accent-55) 100%
-  );
 }
 
 .internal-link:hover {
-  text-shadow: -1px -1px 2px var(--background-modifier-border),
-    -1px 1px 2px var(--background-modifier-border), 1px -1px 2px var(--background-modifier-border),
-    1px 1px 2px var(--background-modifier-border);
-  -webkit-text-fill-color: var(--text-accent);
-  background-size: 4px 50px;
 }
 
 .external-link:hover {
-  text-shadow: -1px -1px 2px var(--background-modifier-border),
-    -1px 1px 2px var(--background-modifier-border), 1px -1px 2px var(--background-modifier-border),
-    1px 1px 2px var(--background-modifier-border);
-  -webkit-text-fill-color: var(--text-sub-accent);
-  background-size: 4px 50px;
 }
 
 /* link */
@@ -923,19 +886,16 @@ a,
 .cm-hmd-internal-link,
 .cm-link {
   text-decoration: none !important;
-  color: var(--text-normal);
   position: relative;
   z-index: 1;
 }
 
 .cm-url {
-  color: var(--text-faint) !important;
   opacity: 0.4;
   font-weight: normal;
 }
 
 .cm-formatting-image {
-  color: var(--text-accent) !important;
   opacity: 0.7;
 }
 
@@ -943,7 +903,6 @@ a,
 a:hover,
 .internal-link:hover {
   text-decoration: none !important;
-  color: var(--text-accent);
 }
 
 /**-------------------**
