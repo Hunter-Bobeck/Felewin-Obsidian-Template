@@ -845,6 +845,7 @@ ul .task-list-item ul::before {
 /** editor mode **/
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-hmd-internal-link {
+  color: var(--text-accent);
   text-decoration: none;
 }
 
