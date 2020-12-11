@@ -1014,7 +1014,7 @@ blockquote {
   padding: 0 5px;
   border-radius: 0.3rem;
   margin: 0 0.3rem;
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(246, 157, 255, 0.9) !important;
 }
 
 .theme-dark :not(pre) > code[class*=language-],
@@ -1408,6 +1408,25 @@ pre.line-numbers > code {
   display: block;
   padding-right: 0.8em;
   text-align: right;
+}
+
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+
+.markdown-embed .markdown-preview-view {
+  padding: 0px 0px 0px 0px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+.markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer > .markdown-preview-section > p {
+  padding-right: 45px;
 }
 
 /*!

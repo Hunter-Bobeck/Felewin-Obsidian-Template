@@ -1067,7 +1067,7 @@ blockquote {
   padding: 0 5px;
   border-radius: 0.3rem;
   margin: 0 0.3rem;
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(246, 157, 255, 0.9) !important;
 }
 
 .theme-dark :not(pre) > code[class*='language-'],
