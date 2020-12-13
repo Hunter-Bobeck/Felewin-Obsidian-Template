@@ -1,0 +1,19 @@
+.cm-s-obsidian span.cm-tag {
+    color: #cc7;
+}
+
+.cm-s-obsidian span.cm-formatting-link {
+    color: #7aa2f7 !important;
+}
+
+span.cm-link.cm-list-1 {
+    color: rgba(0, 255, 162, 0.55);
+}
+
+span.cm-attribute {
+    color: saddlebrown !important;
+}
+
+span.cm-formatting.cm-formatting-link-string.cm-string.cm-url.cm-list-1 {
+    color: #7aa2f7;
+}

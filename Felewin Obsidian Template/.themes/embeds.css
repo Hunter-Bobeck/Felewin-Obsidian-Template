@@ -9,10 +9,6 @@
     padding: 0px 0px 0px 0px;
 }
 
-blockquote {
-    margin: 0;
-}
-
 .markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer > .markdown-preview-section > p {
     padding-right: 45px;
 }

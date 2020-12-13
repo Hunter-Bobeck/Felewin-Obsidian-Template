@@ -914,7 +914,7 @@ a.tag:hover {
 }
 
 .cm-s-obsidian span.cm-inline-code {
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(246, 157, 255, 0.9) !important;
 }
 
 /**-------------------**
@@ -1421,12 +1421,37 @@ pre.line-numbers > code {
   padding: 0px 0px 0px 0px;
 }
 
+.markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer > .markdown-preview-section > p {
+  padding-right: 45px;
+}
+
 blockquote {
   margin: 0;
 }
 
-.markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer > .markdown-preview-section > p {
-  padding-right: 45px;
+.markdown-preview-view blockquote {
+  margin-top: 0.35em;
+  margin-bottom: 0.5em;
+}
+
+.cm-s-obsidian span.cm-tag {
+  color: #cc7;
+}
+
+.cm-s-obsidian span.cm-formatting-link {
+  color: #7aa2f7 !important;
+}
+
+span.cm-link.cm-list-1 {
+  color: rgba(0, 255, 162, 0.55);
+}
+
+span.cm-attribute {
+  color: saddlebrown !important;
+}
+
+span.cm-formatting.cm-formatting-link-string.cm-string.cm-url.cm-list-1 {
+  color: #7aa2f7;
 }
 
 /*!
