@@ -1,1 +1,0 @@
-sass myfontawesome.scss "../.obsidian/snippets/myfontawesome.css"

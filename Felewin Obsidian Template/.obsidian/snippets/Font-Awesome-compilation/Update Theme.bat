@@ -1,0 +1,1 @@
+sass "Font Awesome compilation.scss" "../Font Awesome.css"
