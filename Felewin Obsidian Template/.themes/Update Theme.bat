@@ -1,1 +1,1 @@
-sass obsidian.scss "../obsidian.css for template projects/obsidian.css"
+sass myfontawesome.scss "../.obsidian/snippets/myfontawesome.css"
