@@ -5,10 +5,9 @@
     margin: 0;
 }
 
-.markdown-embed .markdown-preview-view {
-    padding: 0px 0px 0px 0px;
+.markdown-embed-title {
+    display: none;
 }
-
-.markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer > .markdown-preview-section > p {
-    padding-right: 45px;
+.markdown-embed .markdown-preview-view {
+    padding-top: 0;
 }
