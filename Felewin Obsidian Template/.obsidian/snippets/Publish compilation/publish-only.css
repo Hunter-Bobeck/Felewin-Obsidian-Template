@@ -7,3 +7,16 @@
 .nav-view-outer {
   display: none;
 }
+
+.published-container .backlinks {
+    margin-top: 80px;
+}
+
+/* fixing issues with `my-Obsidianite-customization.css` exclusive to Obsidian Publish */
+.markdown-preview-view h2:after,
+.markdown-preview-view h3:after,
+.markdown-preview-view h4:after,
+.markdown-preview-view h5:after,
+.markdown-preview-view h6:after {
+    display: none;
+}
