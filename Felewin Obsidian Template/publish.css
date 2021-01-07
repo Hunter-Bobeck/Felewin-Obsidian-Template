@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/* hide the names of cards (since they are redundant with my cards' primary headers) */
+.page-header {
+  display: none;
+}
+
+/* hide the index in the navigation pane */
+.nav-view-outer {
+  display: none;
+}
+
 blockquote {
   margin: 0;
 }
