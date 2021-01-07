@@ -1,56 +1,107 @@
-/* UNIQUE TO THIS CSS FILE / OBSIDIAN PUBLISH */
-
-
-
-
-.page-header {
-    display: none;
-}
-
-
-
-
-
-
-
-
-/* COPIED FROM THE OTHER CSS (THAT'S USED FOR SYNTHESIZING IN OBSIDIAN) */
-
-
-
-
-/* blockquotes.css */
-
+@charset "UTF-8";
 blockquote {
-    margin: 0;
+  margin: 0;
 }
 
 .markdown-preview-view blockquote {
-    margin-top: .35em;
-    margin-bottom: .5em;
+  margin-top: 0.35em;
+  margin-bottom: 0.5em;
 }
 
+button {
+  /* shaping */
+  border-radius: 4.2856vw;
+  /* font */
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  /* coloring */
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
 
-/* embeds.css */
+.button-off:hover {
+  /* transition duration */
+  -o-transition: 666666s;
+  -ms-transition: 666666s;
+  -moz-transition: 666666s;
+  -webkit-transition: 666666s;
+  transition: 666666s;
+  cursor: default;
+}
+
+button:not(.button-off) {
+  /* transition duration */
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button:not(.button-off) > .internal-link {
+  text-decoration: none !important;
+  color: white;
+}
+
+button:not(.button-off):hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+  text-shadow: 0 0 50px rgba(77, 60, 166, 0.4);
+  box-shadow: 0 0 50px rgba(77, 60, 166, 0.4);
+}
+
+button:not(.button-off):active {
+  color: #0073ad;
+  background-color: white;
+  text-shadow: none;
+  box-shadow: 0 0 70px rgba(255, 255, 255, 0.4);
+  /* transition duration */
+  -o-transition: 0s;
+  -ms-transition: 0s;
+  -moz-transition: 0s;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+button:not(.button-off):active > .internal-link {
+  color: #53bdd3;
+}
+
+.cm-s-obsidian span.cm-tag {
+  color: #cc7;
+}
+
+.cm-s-obsidian span.cm-formatting-link {
+  color: #7aa2f7 !important;
+}
+
+span.cm-link.cm-list-1 {
+  color: rgba(0, 255, 162, 0.55);
+}
+
+span.cm-attribute {
+  color: saddlebrown !important;
+}
+
+span.cm-formatting.cm-formatting-link-string.cm-string.cm-url.cm-list-1 {
+  color: #7aa2f7;
+}
 
 .markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
-    border-top: none;
-    border-bottom: none;
-    padding: 0;
-    margin: 0;
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
 }
 
 .markdown-embed-title {
-    display: none;
+  display: none;
 }
+
 .markdown-embed .markdown-preview-view {
-    padding-top: 0;
+  padding-top: 0;
 }
 
-
-/* Font Awesome.css (the last thing in this CSS file) */
-
-@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -134,6 +185,7 @@ blockquote {
   margin-left: 2.5em;
   padding-left: 0;
 }
+
 .fa-ul > li {
   position: relative;
 }
@@ -167,6 +219,7 @@ blockquote {
 .fab.fa-pull-left {
   margin-right: 0.3em;
 }
+
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -6169,4 +6222,6 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/*# sourceMappingURL=Font%20Awesome.css.map */
+/*# sourceMappingURL=Font-Awesome.css.map */
+
+/*# sourceMappingURL=publish.css.map */
