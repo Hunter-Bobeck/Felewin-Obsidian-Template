@@ -600,6 +600,7 @@ h6 {
 .HyperMD-header-4::after,
 .HyperMD-header-5::after,
 .HyperMD-header-6::after {
+  display: none;
   position: absolute;
   content: '';
   height: 1px;
@@ -661,6 +662,7 @@ h6 {
 .markdown-preview-view h4:after,
 .markdown-preview-view h5:after,
 .markdown-preview-view h6:after {
+  display: none;
   position: absolute;
   content: '';
   height: 1px;
@@ -705,7 +707,7 @@ h6 {
 | STRONG/BOLD STYLES
 **--------------------**/
 
-.cm-strong,
+/*.cm-strong,
 strong {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -722,17 +724,17 @@ strong .math.math-inline .MathJax {
 .cm-strong::selection,
 strong::selection {
   -webkit-text-fill-color: var(--text-faint);
-}
+}*/
 
 /**-------------------**
 | ITALIC STYLES
 **--------------------**/
 
-.cm-em,
+/*.cm-em,
 em {
   color: #bb9af7 !important;
   font-family: OperatorMonoSSmLig-Book, Rubik !important;
-}
+}*/
 
 /**-------------------**
 | LISTING STYLES (ul, li, ol)
