@@ -104,6 +104,17 @@
                 "file": "testing.md"
               }
             }
+          },
+          {
+            "id": "a7993506f76f8c1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
