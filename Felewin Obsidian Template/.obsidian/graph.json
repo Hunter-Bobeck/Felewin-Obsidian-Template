@@ -1,1 +1,22 @@
-{"collapse-filter":false,"search":"tag:#📅","showTags":true,"showAttachments":false,"hideUnresolved":true,"showOrphans":true,"collapse-color-groups":true,"colorGroups":[],"collapse-display":true,"showArrow":true,"textFadeMultiplier":-1.2,"nodeSizeMultiplier":1,"lineSizeMultiplier":1,"collapse-forces":true,"centerStrength":0.247863247863248,"repelStrength":10,"linkStrength":1,"linkDistance":428,"scale":0.3326971134371131,"close":true}
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 1.06061746261457,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.299145299145299,
+  "repelStrength": 15.965811965812,
+  "linkStrength": 0.75042735042735,
+  "linkDistance": 500,
+  "scale": 0.06455531499683913,
+  "close": true
+}
